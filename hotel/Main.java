@@ -16,7 +16,7 @@ public class Main {
 
     private static void operativa_habitacion(CHabitacion habitacion1, int dias) {
         System.out.println("Precio estancia: "
-                + habitacion1.calcularPrecioEstancia(5));
+                + habitacion1.calcularPrecioEstancia(dias));
 
         habitacion1.liberar();
     }
