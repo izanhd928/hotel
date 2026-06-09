@@ -3,7 +3,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        CHabitacion habitacion1 = new Habitacion(
+        Habitacion habitacion1 = new Habitacion(
                 "Doble",
                 204,
                 85.50);
@@ -14,7 +14,7 @@ public class Main {
         operativa_habitacion(habitacion1, 4);
     }
 
-    private static void operativa_habitacion(CHabitacion habitacion1, int dias) {
+    private static void operativa_habitacion(Habitacion habitacion1, int dias) {
         System.out.println("Precio estancia: "
                 + habitacion1.calcularPrecioEstancia(dias));
 
